@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ut-8"?>
+<resources>
+    <string name="accessibility_service_label">Auto Clicker Service</string>
+    <string name="accessibility_service_description">Digunakan untuk mensimulasikan ketukan dan geser layar secara otomatis
+    sesuai pengaturan. Tidak membaca isi layar</string>
+</resources>

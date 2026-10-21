@@ -3,6 +3,17 @@
         android:label="auto_clicker"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <service
+            android:name=".AutoClickerService"
+            android:exported="true"
+            android:label="@string/accessibility_service_label"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+        <intent-filter>
+            <action android:name="android.accessibilityservice.AccessibilityService" />
+        </intent-filter>
+        <meta-data
+            android:name="android.accessibilityservices.AccessibibltyService" />
+        </service>
         <activity
             android:name=".MainActivity"
             android:exported="true"
