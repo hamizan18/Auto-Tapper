@@ -1,4 +1,4 @@
-package com.example.auto_clicker
+package com.mijaenn.auto_clicker
 
 import android.accessibilityservice.AccessibilityService
 import android.accessibilityservice.GestureDescription
